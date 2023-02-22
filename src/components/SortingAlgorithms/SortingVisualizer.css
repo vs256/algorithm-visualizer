@@ -1,0 +1,45 @@
+.wrapper{
+    background: rgb(25, 12, 43);
+}
+.slider-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.array-container {
+    position: absolute;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.array-bar {
+    width: 16px;
+    background-color: turquoise;
+    display: inline-block;
+    margin: 0 1px;
+}
+.row{display:flex; flex-direction:row;}
+
+.button-wrapper{
+    margin: 0px auto;
+    width: 1000px;
+}
+.button{
+    padding: 3px;
+}
+
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+      /* display: none; <- Crashes Chrome on hover */
+      -webkit-appearance: none;
+      margin-left: 0px; /* <-- Apparently some margin are still there even though it's hidden */
+      background: rgba(238, 238, 238, 0) url('../../images/inputSlider/up-down-arrow.png') no-repeat 50% 50%;  
+      width: 14px;
+      height: 14px;
+      padding-left: 0px;
+      position: relative;
+      right: 0px;
+      border-radius: 28px;
+  }
